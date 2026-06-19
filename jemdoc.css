@@ -24,6 +24,49 @@ body {
   min-width: 600px;
 }
 
+.profilephoto {
+  border: 1px solid #dddddd;
+}
+
+.metricstable {
+  border-collapse: collapse;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+}
+
+.metricstable th,
+.metricstable td {
+  border: 1px solid #cccccc;
+  padding: 0.3em 0.8em;
+  text-align: left;
+}
+
+.note {
+  color: #555555;
+  font-size: 90%;
+}
+
+@media (max-width: 700px) {
+  body {
+    min-width: 0;
+    margin-top: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  table.imgtable,
+  table.imgtable tbody,
+  table.imgtable tr,
+  table.imgtable td {
+    display: block;
+    width: 100%;
+  }
+
+  table.imgtable td:first-child {
+    margin-bottom: 0.5em;
+  }
+}
+
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
